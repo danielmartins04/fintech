@@ -1,3 +1,4 @@
+import DateRange from "./Components/DateRange";
 import Header from "./Components/Header";
 import Sidenav from "./Components/Sidenav";
 import { DataContextProvider } from "./Context/DataContext";
@@ -10,6 +11,7 @@ function App() {
       <div>
         <Sidenav />
         <main>
+          <DateRange />
           <Header />
           <Resumo />
         </main>
