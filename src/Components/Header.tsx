@@ -1,8 +1,8 @@
-import DateRange from "./DateRange";
-import Months from "./Months";
+import DateRange from './DateRange';
+import Months from './Months';
 
 function Header() {
-  return  (
+  return (
     <header className="mb">
       <div className="mb">
         <DateRange />
@@ -10,6 +10,6 @@ function Header() {
       <Months />
     </header>
   );
-};
+}
 
 export default Header;

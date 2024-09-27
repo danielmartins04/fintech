@@ -1,4 +1,4 @@
-import { useData } from "../Context/DataContext";
+import { useData } from '../Context/DataContext';
 
 const Resumo = () => {
   const data = useData();

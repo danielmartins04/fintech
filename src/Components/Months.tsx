@@ -1,4 +1,4 @@
-import MonthBtn from "./MonthBtn";
+import MonthBtn from './MonthBtn';
 
 const Months = () => {
   return (
@@ -7,7 +7,7 @@ const Months = () => {
       <MonthBtn desiredMonth={1} />
       <MonthBtn desiredMonth={2} />
     </div>
-  )
-}
+  );
+};
 
 export default Months;
