@@ -1,9 +1,8 @@
-import { useState } from "react";
 import DateInput from "./DateInput";
+import { useData } from "../Context/DataContext";
 
 const DateRange = () => {
-  const [inicio, setInicio] = useState("");
-  const [final, setFinal] = useState("");
+  const { inicio, setInicio, final, setFinal } = useData();
 
   return (
     <form className="box flex" onSubmit={(e) => e.preventDefault}>
