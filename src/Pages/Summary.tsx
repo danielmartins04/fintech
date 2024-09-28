@@ -1,6 +1,6 @@
 import { useData } from '../Context/DataContext';
 
-const Resumo = () => {
+const Summary = () => {
   const { data } = useData();
 
   if (data === null) return null;
@@ -41,4 +41,4 @@ const Resumo = () => {
   );
 };
 
-export default Resumo;
+export default Summary;
