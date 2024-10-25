@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import { IVenda } from '../Context/DataContext';
 
 type VendaItemProps = {
@@ -7,9 +8,9 @@ type VendaItemProps = {
 const SaleItem = ({ venda }: VendaItemProps) => {
   return (
     <div className="venda box">
-      <a href="" style={{ fontFamily: 'monospace' }}>
+      <NavLink to={`/venda/${venda.id}`} style={{ fontFamily: 'monospace' }}>
         {venda.id}
-      </a>
+      </NavLink>
       <div>{venda.nome}</div>
       <div>
         {venda.preco.toLocaleString('pt-br', {

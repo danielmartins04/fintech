@@ -18,6 +18,7 @@ export type IVenda = {
   status: 'pago' | 'processando' | 'falha';
   data: string;
   parcelas: number | null;
+  pagamento: string;
 };
 
 const DataContext = createContext<IDataContext | null>(null);
